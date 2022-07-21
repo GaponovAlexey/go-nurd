@@ -10,11 +10,9 @@ import (
 func f(c *gin.Context) {
 	t := time.Now()
 
-
 	if c.Request.Method == "OPTIONS" {
 		return
-		}
-		
+	}
 
 	// Set example variable
 	c.Set("examplesssssssssssssss", "12333333333333345")
